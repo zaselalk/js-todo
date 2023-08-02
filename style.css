@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #105c9b;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.headline {
+  font-size: 48px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date--box {
+  border-radius: 5px;
+  background: #00b4d8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date--box-date {
+  font-size: 40px;
+}
+
+.date--day {
+  font-size: 23px;
+  margin: 3px;
+}
+
+.container {
+  margin: 4%;
+}
+
+.task-to-complete {
+  border-radius: 20px;
+  border: 2px solid #fff9f9;
+  background: #caf0f8;
+  padding: 10px;
+  position: absolute;
+  margin: -10px 10px;
+  right: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-to-complete p {
+  font-size: 18px;
+  padding: 0px 20px;
+  color: #0077b6;
+}
+
+.task-to-complete div {
+  background-color: #00b4d8;
+  border-radius: 100%;
+  padding: 5px 10px;
+  color: #caf0f8;
+}
+
+ul {
+  margin: 60px 20px;
+  /* overflow: scroll; */
+}
+
+ul li {
+  font-size: 20px;
+  border-radius: 5px;
+  background: #caf0f8;
+  padding: 20px 15px;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul li button {
+  border: none;
+  background-color: #00b4d8;
+  color: #fff;
+  border-radius: 5px;
+}
+
+input[type="text"] {
+  height: 50px;
+  font-size: 15px;
+  padding: 4px;
+}
+
+.input-item {
+  width: 100%;
+  margin: 5px 0px;
+  border-radius: 4px;
+  border: 1px solid #0077b6;
+}
+
+.input-item--btn {
+  border-radius: 5px;
+  background: #00b4d8;
+  border: none;
+  padding: 12px 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 1.2px;
+}
+
+.input-item--close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  border: none;
+  padding: 3px;
+  background-color: transparent;
+}
+.input-item--close-btn svg {
+  width: 40px;
+}
+
+select {
+  height: 40px;
+}
+
+.input-group {
+  margin: 10px 5px;
+}
+
+button {
+  padding: 8px 14px;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.backdrop {
+  background: rgba(6, 6, 6, 0.4);
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+}
+
+.new-task {
+  border-radius: 10px;
+  background: #d9d9d9;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  padding: 20px 30px;
+  width: 70%;
+}
+
+.new-task--title {
+  margin: 20px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 900;
+}
+
+.new-task--btn {
+  margin: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border-radius: 12px;
+  border: 1px solid #fff;
+  background: #5e548e;
+  color: #fff;
+  padding: 20px 40px;
+  font-size: 18px;
+  box-shadow: #5e548e;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
